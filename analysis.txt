@@ -1,1 +1,195 @@
+Berikut contoh **analisis web pemesanan kopi** dari sisi bisnis, fitur, UI/UX, dan teknis. Cocok untuk tugas kuliah, project startup, atau evaluasi sistem.
 
+# Analisis Web Pemesanan Kopi
+
+## 1. Gambaran Umum Sistem
+
+Web pemesanan kopi adalah platform digital yang memungkinkan pelanggan:
+
+* Melihat menu kopi
+* Memesan minuman secara online
+* Melakukan pembayaran
+* Memilih metode pengambilan atau delivery
+
+Target pengguna:
+
+* Pelanggan cafe
+* Pekerja kantoran
+* Mahasiswa
+* Pengguna mobile
+
+---
+
+# 2. Tujuan Website
+
+Tujuan utama:
+
+* Mempermudah proses pemesanan
+* Mengurangi antrean di cafe
+* Meningkatkan penjualan
+* Memberikan pengalaman digital yang cepat dan nyaman
+
+---
+
+# 3. Analisis Fitur Utama
+
+| Fitur             | Fungsi               | Nilai                       |
+| ----------------- | -------------------- | --------------------------- |
+| Login/Register    | Identitas pelanggan  | Memudahkan tracking pesanan |
+| Menu Kopi         | Menampilkan produk   | Membantu pelanggan memilih  |
+| Keranjang Belanja | Menyimpan pesanan    | Memudahkan checkout         |
+| Checkout          | Konfirmasi pembelian | Inti transaksi              |
+| Pembayaran Online | QRIS/e-wallet/bank   | Praktis dan cepat           |
+| Tracking Pesanan  | Status order         | Meningkatkan kepercayaan    |
+| Promo & Voucher   | Diskon pelanggan     | Meningkatkan repeat order   |
+| Review Produk     | Rating kopi          | Social proof                |
+
+---
+
+# 4. Analisis UI/UX
+
+## Kelebihan UI yang Baik
+
+* Warna coklat/cream memberi kesan coffee shop
+* Navigasi sederhana
+* Foto produk berkualitas tinggi
+* Tombol “Pesan Sekarang” jelas terlihat
+
+## Masalah yang Sering Terjadi
+
+* Website lambat
+* Menu terlalu banyak
+* Checkout terlalu panjang
+* Tidak mobile friendly
+
+## Rekomendasi
+
+* Gunakan desain minimalis
+* Optimalkan loading < 3 detik
+* Gunakan responsive design
+* Tambahkan dark mode
+
+---
+
+# 5. Analisis Teknologi
+
+## Frontend
+
+Biasanya menggunakan:
+
+* HTML
+* CSS
+* JavaScript
+* React / Vue
+
+## Backend
+
+* Node.js
+* Laravel
+* Django
+
+## Database
+
+* MySQL
+* PostgreSQL
+
+## Payment Gateway
+
+* Midtrans
+* Xendit
+* DOKU
+
+---
+
+# 6. Analisis Database Sederhana
+
+Tabel utama:
+
+### User
+
+* id_user
+* nama
+* email
+* password
+
+### Produk
+
+* id_produk
+* nama_kopi
+* harga
+* kategori
+
+### Pesanan
+
+* id_pesanan
+* id_user
+* total_harga
+* status
+
+### Detail Pesanan
+
+* id_detail
+* id_pesanan
+* id_produk
+* jumlah
+
+---
+
+# 7. Analisis SWOT
+
+## Strength (Kekuatan)
+
+* Pemesanan cepat
+* Praktis
+* Mendukung cashless
+
+## Weakness (Kelemahan)
+
+* Bergantung internet
+* Perlu maintenance sistem
+
+## Opportunity (Peluang)
+
+* Tren coffee shop meningkat
+* Gaya hidup digital
+
+## Threat (Ancaman)
+
+* Banyak kompetitor
+* Perubahan tren konsumen
+
+---
+
+# 8. Analisis Keamanan
+
+Hal yang harus diperhatikan:
+
+* Enkripsi password
+* HTTPS/SSL
+* Proteksi SQL Injection
+* Validasi input pengguna
+
+---
+
+# 9. Kesimpulan
+
+Web pemesanan kopi membantu meningkatkan efisiensi bisnis cafe dan kenyamanan pelanggan. Sistem yang baik harus:
+
+* Cepat
+* Mudah digunakan
+* Aman
+* Mobile friendly
+* Mendukung pembayaran digital
+
+Dengan UI/UX yang baik dan sistem backend yang stabil, website dapat meningkatkan loyalitas pelanggan dan penjualan bisnis kopi.
+
+Jika mau, saya juga bisa bantu:
+
+* contoh diagram UML web kopi
+* ERD database pemesanan kopi
+* analisis sistem berjalan & usulan
+* contoh laporan BAB 1–5
+* flowchart pemesanan kopi
+* desain UI web kopi
+* analisis kompetitor seperti Starbucks atau Kopi Kenangan
+* contoh coding web pemesanan kopi sederhana
