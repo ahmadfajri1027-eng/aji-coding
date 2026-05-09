@@ -1,1 +1,281 @@
+# Desain Web Pemesanan Kopi
 
+Berikut contoh konsep desain modern untuk website pemesanan kopi yang cocok untuk cafe, coffee shop, atau tugas UI/UX.
+
+---
+
+# 1. Konsep Desain
+
+## Tema
+
+Modern Coffee Shop
+
+## Warna Utama
+
+* Coklat kopi → `#6F4E37`
+* Cream → `#F5E6D3`
+* Hitam → `#1E1E1E`
+* Putih → `#FFFFFF`
+
+## Font
+
+* Heading: Poppins Bold
+* Isi: Inter / Open Sans
+
+## Style
+
+* Minimalis
+* Elegan
+* Warm & cozy
+* Mobile friendly
+
+---
+
+# 2. Struktur Halaman
+
+## A. Homepage
+
+### Komponen:
+
+#### Navbar
+
+* Logo Cafe
+* Home
+* Menu
+* Promo
+* About
+* Contact
+* Login
+
+#### Hero Section
+
+Background gambar kopi premium.
+
+Isi:
+
+* Judul besar:
+
+  > “Nikmati Kopi Favoritmu Tanpa Antre”
+* Tombol:
+
+  * Pesan Sekarang
+  * Lihat Menu
+
+#### Featured Menu
+
+Card produk:
+
+* Foto kopi
+* Nama
+* Harga
+* Tombol tambah keranjang
+
+#### Promo Section
+
+Banner diskon:
+
+* Buy 1 Get 1
+* Cashback QRIS
+
+#### Testimoni
+
+Review pelanggan.
+
+#### Footer
+
+* Alamat cafe
+* Sosial media
+* Jam operasional
+
+---
+
+# 3. Desain Halaman Menu
+
+## Layout Card
+
+Setiap produk berisi:
+
+* Gambar
+* Nama kopi
+* Deskripsi singkat
+* Harga
+* Pilihan ukuran:
+
+  * Small
+  * Medium
+  * Large
+* Level gula
+* Tombol:
+  “Tambah ke Keranjang”
+
+---
+
+# 4. Halaman Checkout
+
+## Form:
+
+* Nama pelanggan
+* Nomor HP
+* Metode pickup/delivery
+* Alamat
+* Catatan pesanan
+
+## Ringkasan Order
+
+* Produk
+* Jumlah
+* Total harga
+
+## Pembayaran
+
+* QRIS
+* GoPay
+* OVO
+* Transfer bank
+
+Tombol:
+
+> “Bayar Sekarang”
+
+---
+
+# 5. User Flow
+
+```text
+Homepage
+   ↓
+Pilih Menu
+   ↓
+Tambah ke Keranjang
+   ↓
+Checkout
+   ↓
+Pembayaran
+   ↓
+Pesanan Diproses
+   ↓
+Pesanan Selesai
+```
+
+---
+
+# 6. Wireframe Sederhana
+
+## Homepage
+
+```text
+------------------------------------------------
+LOGO | Home | Menu | Promo | Login
+------------------------------------------------
+
+      [ Gambar Kopi Besar ]
+
+ "Nikmati Kopi Favoritmu"
+
+ [ Pesan Sekarang ]
+
+------------------------------------------------
+MENU FAVORIT
+
+[ Espresso ]  [ Latte ]  [ Cappuccino ]
+
+------------------------------------------------
+PROMO DISKON
+
+------------------------------------------------
+FOOTER
+------------------------------------------------
+```
+
+---
+
+# 7. Desain Mobile
+
+## Bottom Navigation
+
+* Home
+* Menu
+* Cart
+* Orders
+* Profile
+
+## Kelebihan Mobile UI
+
+* Tombol besar
+* Mudah dipakai satu tangan
+* Checkout cepat
+
+---
+
+# 8. Fitur Tambahan
+
+## Smart Features
+
+* Dark mode
+* Tracking pesanan realtime
+* Favorite menu
+* Riwayat pembelian
+* Voucher otomatis
+
+---
+
+# 9. Rekomendasi Teknologi
+
+## Frontend
+
+* React.js
+* Tailwind CSS
+
+## Backend
+
+* Laravel / Node.js
+
+## Database
+
+* MySQL
+
+## Hosting
+
+* Vercel / Netlify
+
+---
+
+# 10. Inspirasi Desain
+
+Gaya desain mirip:
+
+* Starbucks
+* Kopi Kenangan
+* Janji Jiwa
+
+---
+
+# 11. Tips UI/UX
+
+## Gunakan:
+
+✅ Foto kopi berkualitas tinggi
+✅ Animasi ringan
+✅ Checkout maksimal 3 langkah
+✅ Responsive design
+✅ Loading cepat
+
+## Hindari:
+
+❌ Terlalu banyak warna
+❌ Font kecil
+❌ Popup berlebihan
+❌ Form terlalu panjang
+
+Jika mau, saya juga bisa bantu membuat:
+
+* mockup UI lengkap
+* desain Figma
+* HTML CSS template
+* desain dashboard admin
+* coding React/Tailwind
+* ERD & database
+* flowchart sistem
+* landing page premium
+* desain dark mode
+* UI mobile app coffee shop
